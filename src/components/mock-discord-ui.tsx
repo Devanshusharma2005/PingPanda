@@ -74,12 +74,12 @@ export const MockDiscordUI = ({ children }: PropsWithChildren) => {
             <div className="flex items-center px-2 py-1.5 rounded bg-[#393c43] text-white cursor-pointer">
               <Image
                 src="/brand-asset-profile-picture.png"
-                alt="EventX Avatar"
+                alt="PingPanda Avatar"
                 width={32}
                 height={   32}
                 className="object-cover rounded-full mr-3"
               />
-              <span className="font-medium">EventX</span>
+              <span className="font-medium">PingPanda</span>
             </div>
 
             <div className="my-1 space-y-px">
@@ -159,7 +159,7 @@ export const MockDiscordUI = ({ children }: PropsWithChildren) => {
             <input
               readOnly
               type="text"
-              placeholder="Message @EventX"
+              placeholder="Message @PingPanda"
               className="flex-1 bg-transparent py-2.5 px-1 text-white placeholder-[#72767d] focus:outline-none cursor-text"
             />
             <div className="flex items-center space-x-3 mx-3 text-[#b9bbbe]">

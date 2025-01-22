@@ -15,6 +15,8 @@ interface PageProps {
   }
 }
 
+
+
 const Page = async ({ searchParams }: PageProps) => {
   const auth = await currentUser()
 
@@ -57,6 +59,7 @@ const Page = async ({ searchParams }: PageProps) => {
           </CreateEventCategoryModal>
         }
         title="Dashboard"
+  
       >
         <DashboardPageContent />
       </DashboardPage>
